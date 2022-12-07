@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+.contentArea{
+	width: 1140px;
+	height: 8349px;
+	padding: 45px 0 120px;
+	margin: auto;
+	background-color: #999;
+}
+.productWrap{
+	width: 1140px;
+	height: 8184px;
+}
+.productTopContents{
+	width: 1140px;
+	height: 957px;
+	background-color: #888;
+}
+.prodectVisualWrap{
+	width: 700px;
+	height: 600px;
+	background-color: #777;
+	display: inline-block;
+	position: relative;
+	text-align: right;
+}
+.swiper-wrapper{
+	width: 67px;
+	height: 385px;
+	background-color: #666;
+	display: inline-block;
+	
+}
+.sideImgWrap{
+	width: 67px;
+	height: 67px;
+	display: inline-block;
+}
+.sideImg{
+	border-radius: 10%;
+	display: inline-block;
+}
+.mainImgWrap{
+	width: 554px;
+	height: 554px;
+	display: inline-block;
+	background-color: #555;
+}
+.mainImg{
+	width: 554px;
+	height: 554px;
+	display: inline-block;
+	align-items: flex-end;
+	
+}
+.productDetailTop{
+	width: 438px;
+	height: 957px;
+}
+.productTitle{
+	width: 438px;
+	height: 122px;
+}
+.util-float{
+	width: 66px;
+	height: 28px;
+}
+.priceWrap{
+	width: 438px;
+	height: 198px;
+}
+.discountPriceInfo{
+	width: 438px;
+	height: 27px;
+}
+.priceInfo{
+	width: 438px;
+	height: 36px;
+}
+.applyBenefit{
+	width: 438px;
+	height: 23.8px;
+}
+.lotteOnersBanner{
+	width: 438px;
+	height: 48px;
+}
+.optionContent{
+	width: 438px;
+	height: 182px;
+}
+.optionWrap-withLabel{
+	width: 438px;
+	height: 64px;
+}
+.selectResult{
+	width: 438px;
+	height: 64px;
+}
+.priceOptionBox{
+	width: 438px;
+	height: 98px;
+}
+.limit-info{
+	width: 398px;
+	height: 20px;
+}
+.price{
+	width: 398px;
+	height: 32px;
+}
+.mainButton{
+	width: 438px;
+	height: 52px;
+}
+.purchaseInfoBox{
+	width: 438px;
+	height: 116px;
+}
+.purchaseInfoBoxContent{
+	width: 319px;
+	height: 76px;
+}
+.purchaseInfoBox-cardBenefit{
+	width: 438px;
+	height: 62px;
+}
+.cardBenefitContent{
+	width: 438px;
+	height: 23px;
+}
+.purchaseInfoBox-savingBenefit{
+	width: 438px;
+	height: 63px;
+}
+.savingBenefitContent{
+	width: 438px;
+	height: 23px;
+}
+.seller-buttonWrap{
+	width: 438px;
+	height: 76px;
+}
+.seller-info{
+	width: 438px;
+	height: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -89,20 +89,49 @@
 	width: 438px;
 	height: 22px;
 	background-color: #468;
-
+	padding-top: 10px;
+	display: flex;
+	position: relative;
+	border-bottom: solid 1px;
 }
 .grade{
 	width: 141px;
 	height: 22px;
 	background-color: #259;
+	font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
 }
-/* .starBox{
-	width: 73.5px;
+.starBox{
+	width: 80px;
 	height: 15px;
-} */
+	display: flex;
+	padding-top: 1.3px;
+	
+}
+.star_img{
+	width: 15px;
+	height: 15px;
+	bottom: 2px;
+}
+.monthlyPurchase{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+}
+.appButton{
+	width: 96px;
+	height: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    cursor:pointer;
+}
 .priceWrap{
 	width: 438px;
-	height: 198px;
+	height: 145px;
+	background-color: #173;
+	border-bottom: solid 1px;
 }
 .priceInfo{
 	width: 438px;
@@ -110,27 +139,74 @@
 }
 .applyBenefit{
 	width: 438px;
-	height: 23.8px;
+	height: 38px;
+	position: relative;
+}
+.btnApplyBenefit{
+	width: 113px;
+	height: 36px;
+	border-radius: 6px;
+	position: absolute;
+	right: 0px;
+	cursor:pointer;
+	bottom: 7px;
 }
 .lotteOnersBanner{
 	width: 438px;
 	height: 48px;
+	border-radius: 5px;
+	list-style: solid 0px;
+	border: 0;
+	outline: 0;
+	text-align: left;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    cursor:pointer;
 }
 .optionContent{
 	width: 438px;
-	height: 182px;
+	height: 128px;
+	position: relative;
 }
-.optionWrap-withLabel{
+.priceOptionWrap{
 	width: 438px;
-	height: 64px;
+	height: 98px;
+	background-color: #296;
+	border-radius: 5px;
+	position: absolute;
+	top: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+.priceOptionBox{
+	width: 398px;
+	height: 60px;
+	position: relative;
+}
+.price{
+	width: 398px;
+	height: 32px;
+	position: absolute;
+	bottom: 0;
+}
+.price-num{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+}
+.price-won{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+   	position: absolute;
+	right: 0px;
+	top: 4px;
+}
+
 .selectResult{
 	width: 438px;
 	height: 64px;
-}
-.priceOptionBox{
-	width: 438px;
-	height: 98px;
 }
 .limit-info{
 	width: 398px;
@@ -140,13 +216,39 @@
 	width: 398px;
 	height: 32px;
 }
-.mainButton{
+.buttonGroup{
 	width: 438px;
+	height: 74px;
+	background-color: #589;
+}
+.giftButton{
+	width: 108px;
 	height: 52px;
+	border-radius: 5px;
+	cursor:pointer;
+	border: 1px solid purple;
+}
+.cartButton{
+	width: 157px;
+	height: 52px;
+	border-radius: 5px;
+	cursor:pointer;
+	border: 1px solid purple;
+}
+.buyButton{
+	width: 155px;
+	height: 52px;
+	border-radius: 5px;
+	cursor:pointer;
+	background-color: purple;
+	border: 1px solid black;
 }
 .purchaseInfoBox{
 	width: 438px;
-	height: 116px;
+	height: 143px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	position: relative;
 }
 .purchaseInfoBoxContent{
 	width: 319px;
@@ -155,27 +257,62 @@
 .purchaseInfoBox-cardBenefit{
 	width: 438px;
 	height: 62px;
+	border-bottom: solid 1px;
+	display: flex;
+	align-items: center;
 }
 .cardBenefitContent{
 	width: 438px;
 	height: 23px;
+	background-color: #387;
+	position: relative;
+}
+.cardBenefitText{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
 }
 .purchaseInfoBox-savingBenefit{
 	width: 438px;
-	height: 63px;
+	height: 62px;
+	border-bottom: solid 1px;
+	display: flex;
+	align-items: center;
 }
 .savingBenefitContent{
 	width: 438px;
 	height: 23px;
+	background-color: #685;
+	position: relative;
 }
-.seller-buttonWrap{
+.savingBenefitText{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+}
+ .seller-buttonWrap{
 	width: 438px;
 	height: 76px;
+	display: flex;
+	align-items: center;
 }
 .seller-info{
 	width: 438px;
 	height: 36px;
+	background-color: #917;
+	position: relative;
 }
+.seller-infoImg{
+	width: 36px;
+	height: 36px;
+}
+.seller-infoText{
+	position: absolute;
+	left: 47px;
+	bottom: 8px;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+ 
 
 
 
@@ -190,8 +327,14 @@
 
 
 
-
-
+.moreImfomationBtn{
+	position: absolute;
+	right: 0px;
+	top: 3px;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 11px;
+    color: black;
+}
 
 
 

@@ -4,30 +4,27 @@
 .contentArea{
 	width: 1140px;
 	height: 8349px;
-	padding: 45px 0 120px;
 	margin: auto;
-	background-color: #999;
 }
 .productWrap{
 	width: 1140px;
-	height: 8184px;
-}
+	height: 5000px;
+} 
 .productTopContents{
 	width: 1140px;
-	height: 957px;
-	background-color: #888;
+	height: 950px;
+	padding: 45px 0 120px;
+	margin: auto;
 }
 .prodectVisualWrap{
 	width: 642px;
 	height: 555px;
-	background-color: #777;
 	display: inline-block;
 	position: relative;
 }
 .swiper-wrapper{
 	width: 69px;
 	height: 385px;
-	background-color: #666;
 	float:left;
 }
 .sideImgWrap{
@@ -41,25 +38,37 @@
 .mainImgWrap{
 	width: 554px;
 	height: 554px;
-	background-color: #555;
 	float: right;
+	border-radius: 10px;
+	background-blend-mode: multiply;
+	background-color: #DCDCDC;
+	position: relative;
+}
+.mainImgBC{
+	position: absolute;
+	background-color:rgba(0, 0, 0, 0.035);
+	z-index:10;
+	height:100%;
+	width: 100%;
 	border-radius: 10px;
 }
 .mainImg{
 	width: 554px;
 	height: 554px;
 	border-radius: 10px;
+	background-blend-mode: multiply;
+	background-color: #DCDCDC;
+	position: relative;
+	z-index: 1;
 }
 .productDetailTop{
 	width: 438px;
 	height: 957px;
-	background-color: #444;
 	float: right;
 }
 .productTitle{
 	width: 438px;
 	height: 84px;
-	background-color: #333;
 	padding-bottom: 12px;
 }
 .productNameLine{
@@ -79,16 +88,21 @@
 .util-float{
 	width: 66px;
 	height: 28px;
-	background-color: #357;
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
 }
-
+.likeBtn{
+	width: 28px;
+	height: 28px;
+}
+.fa-solid fa-heart{
+	width: 28px;
+	height: 28px;
+}
 .productReview{
 	width: 438px;
 	height: 22px;
-	background-color: #468;
 	padding-top: 10px;
 	display: flex;
 	position: relative;
@@ -97,7 +111,6 @@
 .grade{
 	width: 141px;
 	height: 22px;
-	background-color: #259;
 	font-size: 12px;
     font-family: 'Noto Sans KR', sans-serif;
     display: flex;
@@ -107,7 +120,6 @@
 	height: 15px;
 	display: flex;
 	padding-top: 1.3px;
-	
 }
 .star_img{
 	width: 15px;
@@ -119,7 +131,6 @@
     font-size: 12px;
 }
 .appButton{
-	width: 96px;
 	height: 20px;
 	font-family: 'Noto Sans KR', sans-serif;
     font-size: 12px;
@@ -130,17 +141,20 @@
 .priceWrap{
 	width: 438px;
 	height: 145px;
-	background-color: #173;
 	border-bottom: solid 1px;
+	border-bottom-color: #DCDCDC;
 }
 .priceInfo{
 	width: 438px;
 	height: 36px;
+	margin-top: 10px;
+	position: relative;
 }
 .applyBenefit{
 	width: 438px;
 	height: 38px;
 	position: relative;
+	margin-top: 10px;
 }
 .btnApplyBenefit{
 	width: 113px;
@@ -150,6 +164,11 @@
 	right: 0px;
 	cursor:pointer;
 	bottom: 7px;
+	border: 1px solid black;
+	background-color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
 .lotteOnersBanner{
 	width: 438px;
@@ -161,6 +180,7 @@
 	text-align: left;
 	font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
+   	color: #773DBD;
     cursor:pointer;
 }
 .optionContent{
@@ -171,13 +191,13 @@
 .priceOptionWrap{
 	width: 438px;
 	height: 98px;
-	background-color: #296;
 	border-radius: 5px;
 	position: absolute;
-	top: 22px;
+	top: 14px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: #F8F8F8;
 }
 .priceOptionBox{
 	width: 398px;
@@ -195,6 +215,7 @@
     font-size: 20px;
     position: absolute;
     right: 15px;
+    font-weight: 600;
 }
 .price-won{
 	font-family: 'Noto Sans KR', sans-serif;
@@ -219,7 +240,6 @@
 .buttonGroup{
 	width: 438px;
 	height: 74px;
-	background-color: #589;
 }
 .giftButton{
 	width: 108px;
@@ -227,6 +247,11 @@
 	border-radius: 5px;
 	cursor:pointer;
 	border: 1px solid purple;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+   	color: purple;
+   	background-color: white;
+   	font-weight: 500;
 }
 .cartButton{
 	width: 157px;
@@ -234,6 +259,11 @@
 	border-radius: 5px;
 	cursor:pointer;
 	border: 1px solid purple;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    color: purple;
+    background-color: white;
+    font-weight: 500;
 }
 .buyButton{
 	width: 155px;
@@ -242,30 +272,41 @@
 	cursor:pointer;
 	background-color: purple;
 	border: 1px solid black;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
 }
 .purchaseInfoBox{
 	width: 438px;
 	height: 143px;
 	border-top: solid 1px;
+	border-top-color: #DCDCDC;
 	border-bottom: solid 1px;
+	border-bottom-color: #DCDCDC;
 	position: relative;
 }
 .purchaseInfoBoxContent{
-	width: 319px;
+	width: 438px;
 	height: 76px;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    margin-top: 12px;
+    position: relative;
 }
 .purchaseInfoBox-cardBenefit{
 	width: 438px;
 	height: 62px;
 	border-bottom: solid 1px;
+	border-bottom-color: #DCDCDC;
 	display: flex;
 	align-items: center;
 }
 .cardBenefitContent{
 	width: 438px;
 	height: 23px;
-	background-color: #387;
 	position: relative;
+	color: #444444;
 }
 .cardBenefitText{
 	font-family: 'Noto Sans KR', sans-serif;
@@ -275,14 +316,15 @@
 	width: 438px;
 	height: 62px;
 	border-bottom: solid 1px;
+	border-bottom-color: #DCDCDC;
 	display: flex;
 	align-items: center;
 }
 .savingBenefitContent{
 	width: 438px;
 	height: 23px;
-	background-color: #685;
 	position: relative;
+	color: #444444;
 }
 .savingBenefitText{
 	font-family: 'Noto Sans KR', sans-serif;
@@ -297,7 +339,6 @@
 .seller-info{
 	width: 438px;
 	height: 36px;
-	background-color: #917;
 	position: relative;
 }
 .seller-infoImg{
@@ -310,24 +351,26 @@
 	bottom: 8px;
 	font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.moreImfomationBtn{
+.seller-infoBtn{
+	width: 125px;
+	height: 36px;
+	position: absolute;
+	right: 0px;
+	border-radius: 5px;
+	border: 1px solid #c0c0c0;
+	cursor:pointer;
+	background-color: white;
+}
+ .seller-infoBtnText{
+ 	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+.moreImfomationBtn{ /* 더보기 버튼*/
 	position: absolute;
 	right: 0px;
 	top: 3px;
@@ -335,6 +378,151 @@
     font-size: 11px;
     color: black;
 }
+.reviewWrap{
+	width: 750px;
+	height: 1900px;
+}
+.util{
+	width: 750px;
+	height: 45px;
+	padding-bottom: 20px;
+	position: relative;
+	border-bottom: solid 1px;
+}
+.utilNum1{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+.utilNum2{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.reviewSearchArea{
+	width: 400px;
+	height: 44px;
+	background-color: #ececec;
+	float: right;
+	border-radius: 7px;
+}
+.search{
+	width: 314px;
+	height: 44px;
+	margin-left: 14px;
+	margin-right: 72px;
+	background-color: #ececec;
+	border: 0px;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    
+}
+.cores{
+	width: 750px;
+	height: 74px;
+	background-color: #689;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+}
+.staring{
+	width: 210px;
+	height: 74px;
+	position: absolute;
+	left: 280px;
+}
+.coresStars{
+	width: 130px;
+	height: 26px;
+	position: absolute;
+	left: 28px;
+	display: flex;
+}
+.star_img_re{
+	width: 27px;
+	height: 27px;
+}
+.star_score1{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    bottom: 3px;
+    left: 52px;
+    font-weight: 600;
+}
+.star_score2{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    bottom: 3px;
+    left: 97px;
+}
+.thumbnail{
+	width: 750px;
+	height: 144px;
+	background-color: #591;
+	padding-left: 0;
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+.info{
+	width: 750px;
+	height: 44px;
+	background-color: #853;
+	padding-top: 24px;
+	padding-bottom: 12px;
+	position: relative;
+}
+.total_re{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.reviewList{
+	width: 750px;
+	height: 300px;
+	padding-top: 23px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px;
+}
+.userName{
+	height: 24px;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.mainReview{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+}
+.underAction{
+	width: 750px;
+	height: 23px;
+	margin-top: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
